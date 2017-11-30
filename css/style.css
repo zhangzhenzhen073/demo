@@ -1,0 +1,112 @@
+/*运动百科详情*/
+body{
+    background:#f1ecec;
+}
+header{
+    width:100%;
+    height:1.28rem;
+    line-height: 1.56rem;
+    background: rgba(0,0,0,.4);
+    font-size: .36rem;
+    text-align: center;
+    color:#fff;
+    position: fixed;
+    z-index: 99999;
+}
+img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.mainWrap{
+    background:#fff;
+    padding:.5rem .25rem .1rem .25rem;
+    overflow:hidden;
+    position: relative;
+    margin:0 0 .3rem 0;
+}
+.mainWrap .title{
+    font-size: .48rem;
+    margin-bottom:.4rem;
+}
+.mainWrap .line{
+    width:.08rem;
+    height:.49rem;
+    background:#FB0065;
+    position: absolute;
+    left:0;
+    top:.6rem;
+}
+.mainWrap p{
+    word-break : normal;
+    text-align: justify;
+    font-size: .35rem;
+    line-height: .5rem;
+    margin-bottom:.25rem;
+}
+.mainWrap .imgWrap{
+    overflow:hidden;
+}
+.mainWrap .imgWrap .imgLeft{
+    float:left;
+    width:4.5rem;
+    height:4.5rem;
+}
+.mainWrap .imgWrap .imgRight{
+    float:right;
+}
+.mainWrap .imgWrap .imgRight .imgT,.mainWrap .imgWrap .imgRight .imgB{
+    width:2.4rem;
+    height:2.2rem;
+    margin-bottom:.1rem;
+}
+.mainWrap .imgWrap .h3{
+    text-align: center;
+    font-size: .26rem;
+    margin:.2rem 0 .48rem 0;
+}
+.mainWrap .ul01{
+    overflow:hidden;
+    margin:0 0 .3rem 0;
+}
+.mainWrap .ul01 li{
+    float:left;
+    width:3.5rem;
+    height:.8rem;
+
+}
+.mainWrap .ul01 li a{
+    font-size: .36rem;
+    color:#000;
+}
+
+
+/*字体图标 begin*/
+@font-face{
+    font-family: 'SinaHomeFont';
+    src: url('../fonts/SinaHomeFont.eot');
+    src: url('../fonts/SinaHomeFont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SinaHomeFont.woff') format('woff'),
+    url('../fonts/SinaHomeFont.ttf')  format('truetype'),
+    url('../fonts/SinaHomeFont.svg#SinaHomeFont') format('svg');
+}
+/*css3属性选择器  选中以'icon_'开头    选中包含'icon_'*/
+[class^='icon_'],[class*='icon_']{
+    font-family: 'SinaHomeFont';
+    font-weight:normal;
+    font-style:normal;
+    /*解决字体图标锯齿和不清晰的情况*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+/*通过伪元素 before 或者 after 加属性名content 通过\ 让编码转化为图标字体*/
+.icon_arrowLeft:before{
+    content:"\e601";
+    font-size: .6rem;
+    position: absolute;
+    left: .2rem;
+    top: 0;
+}
+
+/*字体图标 end*/
+
