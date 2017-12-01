@@ -21,7 +21,7 @@ ctx.beginPath();
 ctx.lineWidth = 6; //10px
 //设置线条的颜色
 ctx.strokeStyle = '#e5e5e5';
-ctx.arc(27, 27, 24, 0, 2 * Math.PI);
+ctx.arc(27, 27, 23, 0, 2 * Math.PI);
 //绘制已定义的路径
 ctx.stroke();
 //百分比所占的粉色的圆
@@ -30,7 +30,7 @@ ctx.lineWidth = 6;
 ctx.strokeStyle = '#fb0065';
 //-90度为起点 弧度为-0.5*Math.PI
 //百分比如26% 所占的弧度为 26/100*Math.PI*2
-ctx.arc(27, 27, 24, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
+ctx.arc(27, 27, 23, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
 ctx.stroke();
 //圆里面的文字
 ctx.font = '.24rem Arial';
@@ -50,7 +50,7 @@ ctx.beginPath();
 ctx.lineWidth = 6; //10px
 //设置线条的颜色
 ctx.strokeStyle = '#e5e5e5';
-ctx.arc(27, 27, 24, 0, 2 * Math.PI);
+ctx.arc(27, 27, 23, 0, 2 * Math.PI);
 //绘制已定义的路径
 ctx.stroke();
 //百分比所占的粉色的圆
@@ -59,7 +59,7 @@ ctx.lineWidth = 6;
 ctx.strokeStyle = '#fb0065';
 //-90度为起点 弧度为-0.5*Math.PI
 //百分比如26% 所占的弧度为 26/100*Math.PI*2
-ctx.arc(27, 27, 24, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
+ctx.arc(27, 27, 23, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
 ctx.stroke();
 //圆里面的文字
 ctx.font = '.24rem Arial';
@@ -79,7 +79,7 @@ ctx.beginPath();
 ctx.lineWidth = 6; //10px
 //设置线条的颜色
 ctx.strokeStyle = '#e5e5e5';
-ctx.arc(27, 27, 24, 0, 2 * Math.PI);
+ctx.arc(27, 27, 23, 0, 2 * Math.PI);
 //绘制已定义的路径
 ctx.stroke();
 //百分比所占的粉色的圆
@@ -88,7 +88,7 @@ ctx.lineWidth = 6;
 ctx.strokeStyle = '#fb0065';
 //-90度为起点 弧度为-0.5*Math.PI
 //百分比如26% 所占的弧度为 26/100*Math.PI*2
-ctx.arc(27, 27, 24, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
+ctx.arc(27, 27, 23, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
 ctx.stroke();
 //圆里面的文字
 ctx.font = '.24rem Arial';
