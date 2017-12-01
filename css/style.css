@@ -1,4 +1,4 @@
-/*运动百科详情*/
+/*运动百科详情 begin*/
 body{
     background:#f1ecec;
 }
@@ -20,12 +20,13 @@ img{
 }
 .mainWrap{
     background:#fff;
-    padding:.5rem .25rem .1rem .25rem;
+    padding:.5rem .35rem .1rem .35rem;
     overflow:hidden;
     position: relative;
     margin:0 0 .3rem 0;
 }
 .mainWrap .title{
+    /*font-weight: normal;*/
     font-size: .48rem;
     margin-bottom:.4rem;
 }
@@ -43,6 +44,7 @@ img{
     font-size: .35rem;
     line-height: .5rem;
     margin-bottom:.25rem;
+    color:#333;
 }
 .mainWrap .imgWrap{
     overflow:hidden;
@@ -79,7 +81,102 @@ img{
     font-size: .36rem;
     color:#000;
 }
+/*运动百科详情 end*/
 
+/*食谱详情 begin*/
+.mainWrap01 .title{
+    font-size: .4rem;
+    text-align: center;
+    margin-bottom: .3rem;
+}
+.mainWrap01 p{
+    font-size: .28rem;
+    color:#999;
+}
+.mainWrap02{
+    padding:.35rem .25rem;
+}
+.mainWrap02 .left{
+    float:left;
+    width:1.8rem;
+    height:1.92rem;
+    line-height: 1.92rem;
+    text-align: center;
+    font-size: .36rem;
+    border-right:2px solid #E5E5E5;
+    color:#333;
+}
+.mainWrap02 .left span{
+    font-size:.26rem;
+}
+.mainWrap02 .right{
+    float:right;
+    padding: .2rem 0 0 0;
+}
+.mainWrap02 .right li{
+    float:left;
+    width:1.6rem;
+    height:1.92rem;
+}
+.mainWrap02 .right li .imgWrap{
+    width:1.12rem;
+    height:1.12rem;
+    margin:0 auto;
+}
+.mainWrap02 .right li p{
+    text-align: center;
+    margin:0;
+    color:#666;
+    font-size: .28rem;
+    line-height: .7rem;
+}
+.mainWrap03 .title{
+    font-size: .36rem;
+    text-align: center;
+    margin:0;
+}
+.mainWrap03 .listWrap{
+    padding:0 0 .2rem 0;
+}
+.mainWrap03 .listWrap li{
+    color:#333;
+    font-size: .3rem;
+    height:.88rem;
+    line-height: .88rem;
+    border-bottom:1px solid #e5e5e5;
+}
+.mainWrap03 .listWrap li:last-child{
+    border-bottom:none;
+}
+.mainWrap03 .listWrap li span:last-child{
+    color:#999;
+    float:right;
+}
+.mainWrap04 .title{
+    font-size: .36rem;
+    text-align: center;
+}
+.mainWrap04 h2{
+    height:.46rem;
+    font-size:.28rem;
+    font-family:"Arial";
+    color:#333;
+}
+.mainWrap04 ul{
+    padding:0 0 .2rem 0;
+}
+.mainWrap04 ul li{
+    margin:0 0 .2rem 0;
+}
+.mainWrap04 p{
+    font-size: .28rem;
+    color:#333;
+}
+.mainWrap04 .imgWrap{
+    width:6.82rem;
+    height:4.56rem;
+}
+/*食谱详情 end*/
 
 /*字体图标 begin*/
 @font-face{
@@ -103,10 +200,18 @@ img{
 .icon_arrowLeft:before{
     content:"\e601";
     font-size: .6rem;
+    color:#fff;
     position: absolute;
     left: .2rem;
     top: 0;
 }
-
+.icon_share:before{
+    content:"\e627";
+    font-size: .5rem;
+    color:#fff;
+    position: absolute;
+    right: .2rem;
+    top: 0;
+}
 /*字体图标 end*/
 
