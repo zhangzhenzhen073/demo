@@ -157,7 +157,7 @@ img{
     text-align: center;
 }
 .mainWrap04 h2{
-    height:.46rem;
+    height:.36rem;
     font-size:.28rem;
     font-family:"Arial";
     color:#333;
@@ -166,11 +166,12 @@ img{
     padding:0 0 .2rem 0;
 }
 .mainWrap04 ul li{
-    margin:0 0 .2rem 0;
+    margin:0 0 .3rem 0;
 }
 .mainWrap04 p{
     font-size: .28rem;
     color:#333;
+    margin-bottom:.15rem;
 }
 .mainWrap04 .imgWrap{
     width:6.82rem;

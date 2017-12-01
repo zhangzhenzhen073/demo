@@ -91,7 +91,7 @@ ctx.strokeStyle = '#fb0065';
 ctx.arc(27, 27, 23, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
 ctx.stroke();
 //圆里面的文字
-ctx.font = '.24rem';
+ctx.font = '.24rem Arial';
 ctx.fillStyle = '#000';
 ctx.textBaseline = 'middle';
 ctx.textAlign = 'center';
