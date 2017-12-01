@@ -92,7 +92,7 @@ ctx.arc(27, 27, 23, -0.5*Math.PI,x/100*Math.PI*2-0.5*Math.PI);
 ctx.stroke();
 //圆里面的文字
 ctx.font = '14px Arial';
-ctx.fillStyle = '#000';
+ctx.fillStyle = 'red';
 ctx.textBaseline = 'middle';
 ctx.textAlign = 'center';
 ctx.fillText(x+'%', 27, 27);
